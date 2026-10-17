@@ -8,15 +8,17 @@
 - **名品文案与条目**：撰写名品说明，参照游戏数据制定数值，按 Wiki 结构输出条目草稿。
 - **立绘素材处理与导入**：处理已有图片的尺寸、格式、Alpha 通道、抠图与背景，准备目标工具所需文件。
 
-## 安装与调用
+## 在 Codex 中安装与调用
 
-获取仓库：
+在 Codex 中使用技能安装器：
 
-```sh
-git clone https://github.com/Anle-He/san14-officer.git
+```text
+$skill-installer 从 https://github.com/Anle-He/san14-officer 安装技能，使用仓库根目录，技能名为 san14-officer。
 ```
 
-将完整的 `san14-officer` 目录交给支持 Agent Skills 的工具安装，保持 `SKILL.md`、`references/` 与 `agents/` 的相对位置。安装后使用 `$san14-officer` 调用，并提供本次任务涉及的人物资料、已有设定或原始图片；需要导入素材时附目标工具及其规格。
+安装完整目录，保持 `SKILL.md`、`references/` 与 `agents/` 的相对位置。Codex 会自动发现新安装的技能；若未出现，可重启 Codex。安装方式参见 [OpenAI 官方技能文档](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)。
+
+安装后使用 `$san14-officer` 调用，提供本次任务涉及的人物资料、已有设定或原始图片；需要导入素材时附目标工具及其规格。
 
 ## 调用示例
 
