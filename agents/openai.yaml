@@ -1,0 +1,4 @@
+interface:
+  display_name: "三国志14武将与名品制作"
+  short_description: "考据并校准自建武将数据、编写列传与名品文案、处理立绘格式、背景与透明导入素材"
+  default_prompt: "使用 $san14-officer，结合史料与游戏 Wiki，完成当前所需的自建武将数据、列传、名品文案或立绘导入素材。"
